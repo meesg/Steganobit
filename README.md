@@ -54,7 +54,7 @@ output.
 `offset`: The RGB offset for each pixel which stores a 1 (negative values are
 	allowed).  
 `overflow`: Allow overflow for RGB values. If true and the new R value is 256,
-it will become 0, vice versa.  
+it will become 0.  
 
 ## License
 
