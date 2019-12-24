@@ -1,0 +1,7 @@
+{
+  "data": "data.txt",
+  "inputImage": "icon.bmp",
+  "outputImage": "out.bmp",
+  "offset": [-100, 0, -100],
+  "overflow": false
+}
