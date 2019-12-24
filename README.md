@@ -1,5 +1,7 @@
 # Steganobit
 
+![Before and after](images/before_after.jpg)
+
 Two really simple python scripts to encrypt and decrypt data into images, by
 translating a text file into ascii, translating the ascii into binary, using
 every pixel as a binary value container and adding an offset to the pixels
@@ -7,16 +9,16 @@ which store a 1.
 
 By configuring the script to use a high offset you make it possible to decrypt
 messages based on only the result, by just use of eyesight and educated guesses
-of which pixels should be 0's and which should be 1's. By configuring the script
-to use a low offset, but still using an image where the original color isn't
-obtainable (for example a totally black image), the image is decryptable with
-some basic tools (color picker, another python script, etc). By configuring the
-script to use a low offset and using some random picture, using some advanced
-AI trained on the same type of pictures and iterating over different
-possibilities it might still be possible to retrieve the message encrypted in
-the image. Only by using random noise as an original image, you are certain
-the original image is needed to be able to decrypt the message in the output
-image.
+of which pixels should be 0's and which should be 1's (as shown above). By 
+configuring the script to use a low offset, but still using an image where the 
+original color isn't obtainable (for example a totally black image), the image 
+is decryptable with some basic tools (color picker, another python script, etc). 
+By configuring the script to use a low offset and using some random picture, 
+using some advanced AI trained on the same type of pictures and iterating over 
+different possibilities it might still be possible to retrieve the message 
+encrypted in the image. Only by using random noise as an original image, you 
+are certain the original image is needed to be able to decrypt the message in 
+the output image.
 
 ## Table of Contents
 
